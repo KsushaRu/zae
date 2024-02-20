@@ -8,6 +8,12 @@ namespace WpfApp1.MathLogics
 {
     class Factorial
     {
-      
+        public static int Calculate(int n)
+        {
+            int res = 1;
+            for (int i = 0; i < n; i++)
+            { res *= i; }
+            return res;
+        }
     }
 }
